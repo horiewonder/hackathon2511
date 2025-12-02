@@ -8,6 +8,15 @@
       "expo-router"
     ],
     "name": "hackathon2511",
-    "slug": "hackathon2511"
+    "slug": "hackathon2511",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b2cee29b-19de-492f-8c12-ef54a9ce73b1"
+      }
+    },
+    "android": {
+      "package": "io.feelingover.hackathon2511"
+    }
   }
 }

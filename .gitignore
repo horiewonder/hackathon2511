@@ -36,3 +36,16 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# ネイティブビルド成果物（prebuildで生成されるやつ）
+/android/
+/ios/
+
+# 環境変数系
+.env
+.env.local
+
+# EASのローカルビルド成果物
+*.apk
+*.aab
+*.ipa
